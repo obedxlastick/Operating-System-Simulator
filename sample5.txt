@@ -1,0 +1,410 @@
+23    //Prints a large version of the letter W
+5
+23    //Prints the phrase "Win!" underneath
+800
+50    //Terminates the program
+
+//Prints Line 1 of W
+1     //Prints '\'
+92    
+9
+2
+1     //Function Call to address 700 to print 34 spaces
+34
+27    //Pushes AC as a parameter
+23
+700
+28    //Removes parameter
+1     //Prints '/'
+47
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 2 of W
+1
+27    //Function Call to address 700 to print 1 spaces
+23
+700
+28
+1     //Prints '\'
+92
+9
+2
+1
+32
+27    //Function Call to address 700 to print 32 spaces
+23
+700
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 3 of W
+2
+27    
+23
+700   //Function Call to address 700 to print 2 spaces
+28
+1     //Prints '\'
+92
+9
+2
+1
+30
+27
+23
+700   //Function Call to address 700 to print 30 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line Four of W
+3
+27
+23
+700   //Function Call to address 700 to print 3 spaces
+28
+1     //Prints '\'
+92
+9
+2
+1
+12
+27
+23
+700   //Function Call to address 700 to print 12 spaces
+28
+1
+47    //Prints '/'
+9
+2
+1
+2
+27
+23
+700   //Function Call to address 700 to print 2 spaces
+28
+1     //Prints '\'
+92
+9
+2
+1
+12
+27
+23
+700   //Function Call to address 700 to print 12 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 5 of W
+4
+27
+23
+700
+28
+1     //Prints '\'
+92
+9
+2
+1
+10
+27
+23
+700   //Function Call to address 700 to print 10 spaces
+28
+1
+47    //Prints '/'
+9
+2
+1
+4
+27
+23
+700   //Function Call to address 700 to print 4 spaces
+28
+1     //Prints '\'
+92
+9
+2
+1
+10
+27
+23
+700   //Function Call to address 700 to print 10 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 6 of W
+5
+27
+23
+700   //Function Call to address 700 to print 5 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+8
+27
+23
+700   //Function Call to address 700 to print 8 spaces
+28
+1
+47    //Prints '/'
+9
+2
+1
+6
+27
+23
+700   //Function Call to address 700 to print 6 spaces
+28
+1     //Prints '\'
+92
+9
+2
+1
+8
+27
+23
+700   //Function Call to address 700 to print 8 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 7 of W
+6
+27
+23
+700   //Function Call to address 700 to print 6 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+6
+27
+23
+700   //Function Call to address 700 to print 6 spaces
+28
+1
+47    //Prints '/'
+9
+2
+1
+8
+27
+23
+700   //Function Call to address 700 to print 8 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+6
+27
+23
+700   //Function Call to address 700 to print 6 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 8 of W
+7
+27
+23
+700   //Function Call to address 700 to print 7 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+4
+27
+23
+700   //Function Call to address 700 to print 4 spaces
+28
+1
+47    //Prints '/'
+9
+2
+1
+10
+27
+23
+700   //Function Call to address 700 to print 10 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+4
+27
+23
+700   //Function Call to address 700 to print 4 spaces
+28
+1
+47    //Prints '/'
+9
+2
+
+1     //Prints a new line
+10
+9
+2
+
+1     //Line 9 of W
+8
+27
+23
+700   //Function Call to address 700 to print 8 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1
+95    //Prints an underscore
+9
+2
+1
+95    //Prints an underscore
+9
+2
+1
+47    //Prints '/'
+9
+2
+1
+12
+27
+23
+700   //Function Call to address 700 to print 12 spaces
+28
+1
+92    //Prints '\'
+9
+2
+1     //Prints an underscore
+95
+9
+2
+1     //Prints an underscore
+95
+9
+2
+1
+47    //Prints '/'
+9
+2
+
+
+1     //Prints a new line
+10
+9
+2
+
+24    //Returns from printing W
+
+
+.700  //Loop to print a number of spaces based on given parameter
+1     //Load 1
+1     
+14    //Copy to X register
+6     //Load SP + X to get the parameter that was passed for number of spaces
+14    //Copy to X
+1     //Load the space character
+32
+9     //Print the Space
+2
+26    //Decrement the X register
+15    //Copy from the X register to AC
+22    //Loop until parameter is completed for number of spaces to print
+705
+24    //Return from printing spaces
+
+.800     //Prints the phrase "Win!"
+1        //Prints 17 spaces
+17
+27
+23
+700
+28
+1     //Prints W
+87
+9
+2
+1     //Prints i
+105
+9
+2
+1     //Prints n
+110
+9
+2
+1     //Prints !
+33
+9
+2
+1     //Prints a new line
+10
+9
+2
+24    //Returns from Printing Phrase
+
+.1000  //interrupt handler, just returns
+30
